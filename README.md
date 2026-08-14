@@ -1,3 +1,5 @@
+<img width="2000" height="500" alt="Redacted_Agent_Banner" src="https://github.com/user-attachments/assets/1a943aea-269a-4871-9861-78737283ea0d" /><br>
+
 <p align="center">
     <!-- Discord Badge -->
     <a href="https://discord.justus0405.com/"><img src="https://img.shields.io/discord/1370519315400495234?logo=Discord&logoColor=FFFFFF&colorA=000000&colorB=FFFFFF&style=for-the-badge"></a>
@@ -11,7 +13,7 @@
 
 # About
 
-A small standalone API Endpoint that checks text for toxicity. It loads a Hugging Face Transformers.js model (Xenova/toxic-bert) and exposes a single endpoint where you send text and get back a toxicity score from 0 – 100.
+A small standalone API Endpoint that checks text for toxicity. It loads a Hugging Face Transformers.js model ([Xenova/toxic-bert](https://huggingface.co/Xenova/toxic-bert)) and exposes a single endpoint where you send text and get back a toxicity score from 0 – 100.
 
 Built to be used by the [Redacted Discord Bot](https://github.com/Justus0405/Redacted-Bot).
 
