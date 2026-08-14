@@ -1,0 +1,12 @@
+services:
+  redacted-agent:
+    container_name: "redacted-agent"
+    restart: "unless-stopped"
+    user: "1000:1000"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./.env:/home/node/redacted-agent/.env
