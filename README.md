@@ -11,13 +11,13 @@
     <a href="https://github.com/Justus0405/Redacted-Agent/commits/main/"><img src="https://img.shields.io/github/last-commit/Justus0405/Redacted-Agent?logo=github&logoColor=FFFFFF&colorA=000000&colorB=FFFFFF&style=for-the-badge"></a>
 </p>
 
-# About
+## About
 
 A small standalone API Endpoint that checks text for toxicity. It loads a Hugging Face Transformers.js model ([Xenova/toxic-bert](https://huggingface.co/Xenova/toxic-bert)) and exposes a single endpoint where you send text and get back a toxicity score from 0 – 100.
 
 Built to be used by the [Redacted Discord Bot](https://github.com/Justus0405/Redacted-Bot).
 
-### Run Dependencies
+## Run Dependencies
 
 ```plaintext
 docker
@@ -25,7 +25,7 @@ docker-compose
 docker-buildx
 ```
 
-### Installation Steps
+## Installation Steps
 
 1. Clone the repository:
 
@@ -51,7 +51,7 @@ nano .env
 docker-compose up -d --build
 ```
 
-### Testing
+## Testing
 
 1. To test the endpoint do:
 
