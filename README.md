@@ -68,5 +68,5 @@ curl -X POST http://localhost:3000/classify \
 </p>
 
 <p align="center">
-	<a href="https://github.com/Justus0405/Redacted-Agent/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Justus0405/Redacted-Agent?logo=Github&colorA=FFFFFF&colorB=000000&style=for-the-badge"></a>
+	<a href="https://github.com/Justus0405/Redacted-Agent/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Justus0405/Redacted-Agent?logo=Github&logoColor=000000&colorA=FFFFFF&colorB=000000&style=for-the-badge"></a>
 </p>
